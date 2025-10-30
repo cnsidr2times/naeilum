@@ -1,0 +1,228 @@
+{
+  "S": [
+    {
+      "korean": "송",
+      "hanja": "宋",
+      "weight": 3
+    },
+    {
+      "korean": "서",
+      "hanja": "徐",
+      "weight": 2
+    },
+    {
+      "korean": "신",
+      "hanja": "申",
+      "weight": 1
+    }
+  ],
+  "W": [
+    {
+      "korean": "송",
+      "hanja": "宋",
+      "weight": 3
+    },
+    {
+      "korean": "원",
+      "hanja": "元",
+      "weight": 1
+    }
+  ],
+  "L": [
+    {
+      "korean": "이",
+      "hanja": "李",
+      "weight": 3
+    },
+    {
+      "korean": "임",
+      "hanja": "林",
+      "weight": 1
+    }
+  ],
+  "K": [
+    {
+      "korean": "김",
+      "hanja": "金",
+      "weight": 3
+    },
+    {
+      "korean": "강",
+      "hanja": "姜",
+      "weight": 1
+    }
+  ],
+  "P": [
+    {
+      "korean": "박",
+      "hanja": "朴",
+      "weight": 3
+    },
+    {
+      "korean": "배",
+      "hanja": "裵",
+      "weight": 1
+    }
+  ],
+  "C": [
+    {
+      "korean": "최",
+      "hanja": "崔",
+      "weight": 3
+    },
+    {
+      "korean": "조",
+      "hanja": "趙",
+      "weight": 2
+    },
+    {
+      "korean": "천",
+      "hanja": "千",
+      "weight": 1
+    }
+  ],
+  "J": [
+    {
+      "korean": "정",
+      "hanja": "鄭",
+      "weight": 2
+    },
+    {
+      "korean": "장",
+      "hanja": "張",
+      "weight": 2
+    },
+    {
+      "korean": "전",
+      "hanja": "全",
+      "weight": 1
+    }
+  ],
+  "H": [
+    {
+      "korean": "한",
+      "hanja": "韓",
+      "weight": 2
+    },
+    {
+      "korean": "홍",
+      "hanja": "洪",
+      "weight": 2
+    },
+    {
+      "korean": "황",
+      "hanja": "黃",
+      "weight": 1
+    }
+  ],
+  "B": [
+    {
+      "korean": "백",
+      "hanja": "白",
+      "weight": 2
+    },
+    {
+      "korean": "변",
+      "hanja": "卞",
+      "weight": 1
+    }
+  ],
+  "D": [
+    {
+      "korean": "도",
+      "hanja": "都",
+      "weight": 1
+    }
+  ],
+  "M": [
+    {
+      "korean": "문",
+      "hanja": "文",
+      "weight": 2
+    },
+    {
+      "korean": "민",
+      "hanja": "閔",
+      "weight": 1
+    }
+  ],
+  "Y": [
+    {
+      "korean": "윤",
+      "hanja": "尹",
+      "weight": 2
+    },
+    {
+      "korean": "양",
+      "hanja": "楊",
+      "weight": 1
+    },
+    {
+      "korean": "유",
+      "hanja": "劉",
+      "weight": 1
+    }
+  ],
+  "N": [
+    {
+      "korean": "남",
+      "hanja": "南",
+      "weight": 2
+    },
+    {
+      "korean": "노",
+      "hanja": "盧",
+      "weight": 1
+    }
+  ],
+  "G": [
+    {
+      "korean": "고",
+      "hanja": "高",
+      "weight": 2
+    },
+    {
+      "korean": "구",
+      "hanja": "具",
+      "weight": 1
+    }
+  ],
+  "R": [
+    {
+      "korean": "류",
+      "hanja": "柳",
+      "weight": 2
+    },
+    {
+      "korean": "라",
+      "hanja": "羅",
+      "weight": 1
+    }
+  ],
+  "A": [
+    {
+      "korean": "안",
+      "hanja": "安",
+      "weight": 2
+    },
+    {
+      "korean": "오",
+      "hanja": "吳",
+      "weight": 1
+    }
+  ],
+  "T": [
+    {
+      "korean": "태",
+      "hanja": "太",
+      "weight": 1
+    }
+  ],
+  "DEFAULT": [
+    {
+      "korean": "이",
+      "hanja": "李",
+      "weight": 1
+    }
+  ]
+}

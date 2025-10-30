@@ -1,0 +1,144 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <!-- Screen 1: Name Input -->
+    <div id="screen-input" class="screen active">
+        <div class="header">
+            <h1 class="logo">Naeilum</h1>
+            <p class="subtitle">내일:음</p>
+        </div>
+
+        <div class="content">
+            <p class="instruction">Write down your name to begin</p>
+
+            <form id="name-form">
+                <div class="form-group">
+                    <input type="text" id="first-name" name="firstName" placeholder="First Name" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" id="last-name" name="lastName" placeholder="Last Name" required>
+                </div>
+
+                <div class="options-link">
+                    <a href="#" id="toggle-options">Options</a>
+                </div>
+
+                <div id="options-panel" class="options-panel hidden">
+                    <div class="option-group">
+                        <label>Gender (optional)</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="gender" value="male"> Male</label>
+                            <label><input type="radio" name="gender" value="female"> Female</label>
+                            <label><input type="radio" name="gender" value="neutral" checked> Neutral</label>
+                        </div>
+                    </div>
+
+                    <div class="option-group">
+                        <label>Preferred Meanings</label>
+                        <div class="checkbox-group">
+                            <label><input type="checkbox" name="tags" value="밝음" checked> Brightness</label>
+                            <label><input type="checkbox" name="tags" value="지혜"> Wisdom</label>
+                            <label><input type="checkbox" name="tags" value="용기"> Courage</label>
+                            <label><input type="checkbox" name="tags" value="자연"> Nature</label>
+                            <label><input type="checkbox" name="tags" value="성품"> Character</label>
+                        </div>
+                    </div>
+
+                    <div class="option-group">
+                        <label><input type="checkbox" id="save-data"> Save my selection (anonymous)</label>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Begin</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Screen 2: Name Selection -->
+    <div id="screen-selection" class="screen">
+        <div class="header">
+            <h2 id="original-name" class="original-name"></h2>
+            <p id="original-name-kr" class="original-name-kr"></p>
+        </div>
+
+        <div class="content">
+            <p class="instruction">Select name from the options below</p>
+
+            <div id="name-options" class="name-options">
+                <!-- Name cards will be inserted here -->
+            </div>
+
+            <div class="button-group">
+                <button id="preview-btn" class="btn btn-secondary">Preview Results</button>
+                <button id="select-btn" class="btn btn-primary" disabled>Select</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Screen 3: Name Meaning -->
+    <div id="screen-meaning" class="screen">
+        <div class="header">
+            <h2 id="selected-name" class="selected-name"></h2>
+            <p id="selected-name-hanja" class="selected-name-hanja"></p>
+        </div>
+
+        <div class="content">
+            <div class="meaning-section">
+                <h3>Family Name: <span id="family-name"></span></h3>
+                <div class="hanja-display">
+                    <span id="family-hanja" class="hanja"></span>
+                </div>
+                <p id="family-meaning" class="meaning"></p>
+            </div>
+
+            <div class="meaning-section">
+                <h3>Given Name: <span id="given-name"></span></h3>
+                <div id="given-syllables" class="syllables">
+                    <!-- Syllable meanings will be inserted here -->
+                </div>
+                <p id="name-summary" class="summary"></p>
+            </div>
+
+            <button id="fortune-btn" class="btn btn-primary btn-fortune">
+                Curious about your fortunes?
+            </button>
+        </div>
+    </div>
+
+    <!-- Screen 4: Fortune -->
+    <div id="screen-fortune" class="screen">
+        <div class="header">
+            <h2>Today's Fortune</h2>
+            <p id="fortune-date" class="fortune-date"></p>
+        </div>
+
+        <div class="content">
+            <div class="fortune-section">
+                <h3>Your Cosmic Cookie!</h3>
+                <p id="cosmic-cookie" class="fortune-text"></p>
+                <p class="fortune-note">Warning: May result in unexpected joy.</p>
+            </div>
+
+            <div class="fortune-section">
+                <h3>Lucky Snack</h3>
+                <p id="lucky-snack" class="fortune-text"></p>
+            </div>
+
+            <div class="fortune-section">
+                <h3>A Deeper Look</h3>
+                <p id="deeper-look" class="fortune-text"></p>
+            </div>
+
+            <button id="other-fortunes-btn" class="btn btn-secondary">Other Fortunes</button>
+            <button id="restart-btn" class="btn btn-primary">Try Another Name</button>
+        </div>
+    </div>
+</div>
+
+<!-- Loading overlay -->
+<div id="loading" class="loading hidden">
+    <div class="spinner"></div>
+    <p>Creating your Korean name...</p>
+</div>
+{% endblock %}

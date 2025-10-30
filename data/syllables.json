@@ -1,0 +1,240 @@
+[
+  {
+    "syllable": "서",
+    "hanja": "瑞",
+    "meaning": "상서로움",
+    "tag": "밝음",
+    "common": 1
+  },
+  {
+    "syllable": "월",
+    "hanja": "蔚",
+    "meaning": "무성하다",
+    "tag": "자연",
+    "common": 0
+  },
+  {
+    "syllable": "선",
+    "hanja": "宣",
+    "meaning": "베풀다",
+    "tag": "성품",
+    "common": 1
+  },
+  {
+    "syllable": "명",
+    "hanja": "明",
+    "meaning": "밝을 명",
+    "tag": "밝음",
+    "common": 1
+  },
+  {
+    "syllable": "영",
+    "hanja": "英",
+    "meaning": "뛰어날 영",
+    "tag": "밝음",
+    "common": 1
+  },
+  {
+    "syllable": "휘",
+    "hanja": "輝",
+    "meaning": "빛날 휘",
+    "tag": "밝음",
+    "common": 0
+  },
+  {
+    "syllable": "혁",
+    "hanja": "赫",
+    "meaning": "빛날 혁",
+    "tag": "밝음",
+    "common": 0
+  },
+  {
+    "syllable": "채",
+    "hanja": "彩",
+    "meaning": "빛 채",
+    "tag": "밝음",
+    "common": 0
+  },
+  {
+    "syllable": "소",
+    "hanja": "昭",
+    "meaning": "밝을 소",
+    "tag": "밝음",
+    "common": 1
+  },
+  {
+    "syllable": "지",
+    "hanja": "智",
+    "meaning": "지혜 지",
+    "tag": "지혜",
+    "common": 1
+  },
+  {
+    "syllable": "현",
+    "hanja": "賢",
+    "meaning": "어질 현",
+    "tag": "지혜",
+    "common": 1
+  },
+  {
+    "syllable": "예",
+    "hanja": "叡",
+    "meaning": "밝을 예",
+    "tag": "지혜",
+    "common": 0
+  },
+  {
+    "syllable": "규",
+    "hanja": "圭",
+    "meaning": "홀 규",
+    "tag": "지혜",
+    "common": 0
+  },
+  {
+    "syllable": "도",
+    "hanja": "道",
+    "meaning": "길 도",
+    "tag": "지혜",
+    "common": 0
+  },
+  {
+    "syllable": "경",
+    "hanja": "敬",
+    "meaning": "공경할 경",
+    "tag": "지혜",
+    "common": 0
+  },
+  {
+    "syllable": "용",
+    "hanja": "勇",
+    "meaning": "용감할 용",
+    "tag": "용기",
+    "common": 1
+  },
+  {
+    "syllable": "강",
+    "hanja": "剛",
+    "meaning": "굳셀 강",
+    "tag": "용기",
+    "common": 1
+  },
+  {
+    "syllable": "건",
+    "hanja": "健",
+    "meaning": "건강할 건",
+    "tag": "용기",
+    "common": 1
+  },
+  {
+    "syllable": "호",
+    "hanja": "豪",
+    "meaning": "호걸 호",
+    "tag": "용기",
+    "common": 0
+  },
+  {
+    "syllable": "준",
+    "hanja": "俊",
+    "meaning": "준수할 준",
+    "tag": "용기",
+    "common": 1
+  },
+  {
+    "syllable": "윤",
+    "hanja": "潤",
+    "meaning": "윤택할 윤",
+    "tag": "자연",
+    "common": 1
+  },
+  {
+    "syllable": "하",
+    "hanja": "河",
+    "meaning": "강 하",
+    "tag": "자연",
+    "common": 1
+  },
+  {
+    "syllable": "유",
+    "hanja": "柔",
+    "meaning": "부드러울 유",
+    "tag": "자연",
+    "common": 1
+  },
+  {
+    "syllable": "림",
+    "hanja": "林",
+    "meaning": "수풀 림",
+    "tag": "자연",
+    "common": 0
+  },
+  {
+    "syllable": "연",
+    "hanja": "然",
+    "meaning": "그럴 연",
+    "tag": "자연",
+    "common": 1
+  },
+  {
+    "syllable": "해",
+    "hanja": "海",
+    "meaning": "바다 해",
+    "tag": "자연",
+    "common": 0
+  },
+  {
+    "syllable": "솔",
+    "hanja": "松",
+    "meaning": "소나무 송",
+    "tag": "자연",
+    "common": 0
+  },
+  {
+    "syllable": "우",
+    "hanja": "祐",
+    "meaning": "도울 우",
+    "tag": "성품",
+    "common": 1
+  },
+  {
+    "syllable": "은",
+    "hanja": "恩",
+    "meaning": "은혜 은",
+    "tag": "성품",
+    "common": 1
+  },
+  {
+    "syllable": "민",
+    "hanja": "敏",
+    "meaning": "민첩할 민",
+    "tag": "성품",
+    "common": 1
+  },
+  {
+    "syllable": "정",
+    "hanja": "正",
+    "meaning": "바를 정",
+    "tag": "성품",
+    "common": 1
+  },
+  {
+    "syllable": "성",
+    "hanja": "誠",
+    "meaning": "정성 성",
+    "tag": "성품",
+    "common": 1
+  },
+  {
+    "syllable": "원",
+    "hanja": "源",
+    "meaning": "근원 원",
+    "tag": "성품",
+    "common": 0
+  },
+  {
+    "syllable": "석",
+    "hanja": "錫",
+    "meaning": "주석 석",
+    "tag": "성품",
+    "common": 1
+  }
+]
