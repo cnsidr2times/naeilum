@@ -390,9 +390,9 @@ def open_browser(port):
     webbrowser.open(f'http://localhost:{port}')
 
 if __name__ == '__main__':
-    init_database()
-    port = find_free_port()
-    logger.info(f"Starting Naeilum server on port {port}")
+    import os
+    port = int(os.environ.get('PORT', 3000))
+    app.run(host='0.0.0.0', port=port, debug=False)
 
     # Open browser in a separate thread
     threading.Thread(target=open_browser, args=(port,), daemon=True).start()
